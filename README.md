@@ -1,5 +1,69 @@
 # IA aplicada a E-commerce: Análisis de Sentimientos y Predicción de Ventas
 
+## Ejecutar en Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/hiramatsuDesu/ia-ecommerce-analisis-sentimientos-prediccion-ventas/blob/main/ejecutable/IA_Ecommerce_NLP_Redes_Neuronales_Prediccion.ipynb)
+
+
+## Archivos del proyecto
+
+Este repositorio contiene dos archivos principales:
+
+- **IA_Ecommerce_NLP_Redes_Neuronales_Prediccion.ipynb**  
+  Notebook ejecutable que contiene el código completo del proyecto.  
+  Este archivo debe descargarse o ejecutarse directamente en Google Colab para reproducir los experimentos, entrenar los modelos y visualizar los resultados. Se encuentra en la carpeta ejecutable.  
+
+
+- **IA_Ecommerce_NLP_Redes_Neuronales_Prediccion.pdf**  
+  Documento explicativo generado a partir del notebook, presentado únicamente como una **vista estática y orientativa** del contenido, sin capacidad de ejecución.
+
+
+---
+
+
+# Dataset
+
+El dataset utilizado en este proyecto corresponde a reseñas de productos de Amazo y no se incluye en el repositorio debido a restricciones de tamaño de GitHub.  
+
+
+Fuente:  
+- Amazon Reviews Dataset (Kaggle)  
+
+
+Las instrucciones para descargar y ubicar el dataset se encuentran en la carpeta `datasets/`.  
+
+## Fuente oficial
+
+- Amazon Reviews Dataset  
+- Kaggle: https://www.kaggle.com/datasets/abdallahwagih/amazon-reviews/data
+
+## Formato esperado
+
+
+El archivo debe ubicarse en la carpeta `datasets/` con el siguiente nombre:  
+
+
+amazon_resenias.json  
+
+
+## Uso en el proyecto
+
+El dataset es utilizado para:
+- Análisis de sentimientos mediante técnicas de NLP
+- Entrenamiento de modelos de clasificación binaria
+- Evaluación del impacto de las reseñas en la predicción de ventas
+
+## Reproducibilidad
+
+Para reproducir los experimentos:
+1. Descargar el dataset desde Kaggle
+2. Colocar el archivo `amazon_resenias.json` en esta carpeta
+3. Ejecutar el notebook desde Google Colab o entorno local
+
+
+---
+
 
 ## Descripción
 
